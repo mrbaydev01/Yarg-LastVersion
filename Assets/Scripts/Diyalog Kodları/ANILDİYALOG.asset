@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53d9dc6db9e4484db494b87fb62b33e, type: 3}
+  m_Name: "ANILD\u0130YALOG"
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: Hakim
+    lineText: Yunus Beyle Dostmusunuz ?
+    isPlayer: 1
+  - speakerName: "An\u0131lHan Ayd\u0131n"
+    lineText: "Pek dost oldu\u011Fumuz s\xF6ylenemez \xFCniversitede ayn\u0131 s\u0131n\u0131ftayd\u0131k"
+    isPlayer: 0

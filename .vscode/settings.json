@@ -56,5 +56,8 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "YargıLast.sln"
+    "dotnet.defaultSolution": "YargıLast.sln",
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }

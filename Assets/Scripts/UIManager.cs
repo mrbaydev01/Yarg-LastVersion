@@ -17,12 +17,24 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+    public void OdanaDon()
+    {
+        SceneManager.LoadScene("Scence1");
+    }
+    public void DavayaDon()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+    public void EmekEkrani()
+    {
+        SceneManager.LoadScene("Emek");
+    }
     public void ExitGame()
     {
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-        #else
+#else
         Application.Quit();
-        #endif
+#endif
     }
 }
