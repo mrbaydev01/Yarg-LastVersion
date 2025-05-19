@@ -285,6 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6031565e54977d74981893b58c7a05d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gavelManager: {fileID: 0}
 --- !u!4 &303655187
 Transform:
   m_ObjectHideFlags: 0
@@ -435,6 +436,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1814535018}
   buttonClickSound: {fileID: 8300000, guid: 3119a99547b6aa844a90e429be33a932, type: 3}
+  "ileriBa\u015Flat": 1
+  baslangicSuresi: 90
 --- !u!4 &583467212
 Transform:
   m_ObjectHideFlags: 0
@@ -1331,8 +1334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbaac51241786774084da7b7c32ee7cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSource: {fileID: 1814535018}
-  startTimeInSeconds: 90
+  characterIndex: 0
 --- !u!4 &1788335275
 Transform:
   m_ObjectHideFlags: 0

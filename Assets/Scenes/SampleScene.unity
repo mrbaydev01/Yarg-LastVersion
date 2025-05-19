@@ -1297,8 +1297,12 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "Adam \xF6ld\xFCrme su\xE7u: TCK 81. maddeye g\xF6re
-            12-20 y\u0131l aras\u0131 hapis cezas\u0131 verilebilir.  "
+          m_StringArgument: "T\xFCrk Ceza Kanunu (TCK) Kad\u0131na y\xF6nelik \u015Fiddet
+            su\xE7lar\u0131 ve cezalar\u0131 burada d\xFCzenlenmi\u015Ftir: Madde
+            86: Kasten yaralama Madde 96: Eziyet Madde 102: Cinsel sald\u0131r\u0131
+            Madde 103: \xC7ocuklar\u0131n cinsel istismar\u0131 Madde 109: Ki\u015Fiyi
+            h\xFCrriyetinden yoksun b\u0131rakma Madde 232: Aile bireylerine k\xF6t\xFC
+            muamele"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &252911259
@@ -5338,7 +5342,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "\U0001F4D6 T\xFCrk Ceza Kanunu (TCK)\nKad\u0131na y\xF6nelik \u015Fiddet
+    su\xE7lar\u0131 ve cezalar\u0131 burada d\xFCzenlenmi\u015Ftir:\nMadde 86: Kasten
+    yaralama\nMadde 96: Eziyet\nMadde 102: Cinsel sald\u0131r\u0131\nMadde 103: \xC7ocuklar\u0131n
+    cinsel istismar\u0131\nMadde 109: Ki\u015Fiyi h\xFCrriyetinden yoksun b\u0131rakma\nMadde
+    232: Aile bireylerine k\xF6t\xFC muamele"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5347,8 +5355,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5365,14 +5373,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -5431,8 +5439,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.6234, y: 9.4918}
-  m_SizeDelta: {x: 537.3469, y: 291.7186}
+  m_AnchoredPosition: {x: 15.4103, y: 6.8741}
+  m_SizeDelta: {x: 820.3894, y: 420.7253}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &989583120
 GameObject:
@@ -5923,8 +5931,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 40.05188, y: 262.9589}
-  m_SizeDelta: {x: 333.9756, y: 397.64783}
+  m_AnchoredPosition: {x: 603, y: 367}
+  m_SizeDelta: {x: 694.8048, y: 531.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1056103414
 MonoBehaviour:
@@ -9270,7 +9278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: -0.000061035156}
   m_SizeDelta: {x: 341.5944, y: 0.000061035156}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1775319052
@@ -10633,6 +10641,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 2055287697}
   buttonClickSound: {fileID: 8300000, guid: 9f60dd980a40f1348bb0f16fff489ce8, type: 3}
+  "ileriBa\u015Flat": 1
+  baslangicSuresi: 10
 --- !u!4 &2055287696
 Transform:
   m_ObjectHideFlags: 0
@@ -10992,6 +11002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6031565e54977d74981893b58c7a05d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gavelManager: {fileID: 0}
 --- !u!4 &2089594343
 Transform:
   m_ObjectHideFlags: 0
