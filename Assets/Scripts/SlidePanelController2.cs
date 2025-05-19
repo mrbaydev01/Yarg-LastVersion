@@ -41,4 +41,14 @@ public class SlidePanelController : MonoBehaviour
 
         sidePanel.anchoredPosition = target;
     }
+    public void ClosePanel()
+{
+    if (isOpen)  // Eğer açıksa kapat
+    {
+        StopAllCoroutines();
+        StartCoroutine(SlideTo(hiddenPos));
+        isOpen = false;
+    }
+}
+
 }

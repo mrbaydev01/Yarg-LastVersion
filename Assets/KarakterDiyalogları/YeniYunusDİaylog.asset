@@ -24,5 +24,6 @@ MonoBehaviour:
     lineText: "Peki kar\u0131n\u0131z\u0131n ifadesi ve darp raporuna ne diyeceksiniz"
     isPlayer: 1
   - speakerName: "Yunus Emre \u0130pek"
-    lineText: "Sarho\u015Ftum Hat\u0131rlam\u0131yorum."
+    lineText: "Kendisi bazen hayal d\xFCnyas\u0131nda ya\u015Far o morluklar\u0131
+      kendi kendine yapm\u0131\u015F olmal\u0131."
     isPlayer: 0

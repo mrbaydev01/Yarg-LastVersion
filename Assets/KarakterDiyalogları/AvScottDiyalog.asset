@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c53d9dc6db9e4484db494b87fb62b33e, type: 3}
-  m_Name: eMREdiyalog
+  m_Name: AvScottDiyalog
   m_EditorClassIdentifier: 
   lines:
   - speakerName: Hakim
-    lineText: "savunman\u0131z nedir avukat bey "
+    lineText: "Say\u0131n Avukat Scott ne gibi su\xE7lamalarda bulunacaks\u0131n\u0131z."
     isPlayer: 1
-  - speakerName: AV. Emre Bayrak
-    lineText: "M\xFCvekkilim hakk\u0131ndaki hi\xE7bir su\xE7lamay\u0131 kabul etmiyoruz
-      hakim bey"
+  - speakerName: Avukat Scott Miller
+    lineText: "Say\u0131n Hakim Bey \u0130pek han\u0131m g\xF6rd\xFC\u011F\xFC fiziksel
+      ve piskolojik \u015Fiddet nedeniyle g\xF6rd\xFC\u011F\xFC zarar\u0131n telafisi
+      i\xE7in tazminat 100bin tl lik tazminat talep ediyor "
     isPlayer: 0

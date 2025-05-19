@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53d9dc6db9e4484db494b87fb62b33e, type: 3}
+  m_Name: eMREdiyalog
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: Hakim
+    lineText: "Say\u0131n Avukat Emre Bey S\xF6z s\u0131ras\u0131 sizde "
+    isPlayer: 1
+  - speakerName: Avukat Emre Bayrak
+    lineText: "M\xFCvekkilimin \xFCst\xFCne at\u0131lan hi\xE7bir su\xE7lamay\u0131
+      kabul etmiyoruz hakim bey "
+    isPlayer: 0
+  - speakerName: Hakim
+    lineText: "Neden b\xF6yle d\xFC\u015F\xFCn\xFCyorsunuz "
+    isPlayer: 1
+  - speakerName: Avukat Emre Bayrak
+    lineText: "Selin Han\u0131m Yunus beyle evlenmeden \xF6ncede piskolojik tedavi
+      g\xF6r\xFCyordu b\xFCt\xFCn bunlar\u0131 hayal etmi\u015F olmal\u0131"
+    isPlayer: 0

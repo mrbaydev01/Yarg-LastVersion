@@ -1,25 +1,43 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
+
+    public GavelManager gavelManager; // Inspector’dan atanacak
+
     public void StartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        // Gavel animasyon + ses + sonra sahne geçişi
+        gavelManager.PlayGavelThen(() =>
+        {
+            StartCoroutine(LoadSceneAfterDelay("SampleScene", 1f)); // 0.3f: animasyon süresi
+        });
     }
+
+    IEnumerator LoadSceneAfterDelay(string sceneName, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(sceneName);
+    }
+
+    // Diğer butonlar aynı kalabilir
     public void AyarlarButton()
     {
-        SceneManager.LoadScene("Options");
+        gavelManager.PlayGavelThen(() =>
+        {
+            StartCoroutine(LoadSceneAfterDelay("Options", 0.3f));
+        });
     }
+
     public void MenuyeDon()
     {
         SceneManager.LoadScene("MainMenu");
     }
     public void OdanaDon()
     {
-        SceneManager.LoadScene("Scence1");
+        SceneManager.LoadScene("HakiminOdasi");
     }
     public void DavayaDon()
     {
@@ -37,4 +55,5 @@ public class UIManager : MonoBehaviour
         Application.Quit();
 #endif
     }
+    
 }

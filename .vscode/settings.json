@@ -56,7 +56,7 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "YargıLast.sln",
+    "dotnet.defaultSolution": "Yarg-LastVersion.sln",
     "files.associations": {
         "iostream": "cpp"
     }
